@@ -1,0 +1,97 @@
+{
+  "rules": [
+    {
+      "rule_id": "RULE001",
+      "title": "Computer won't start",
+      "description": "Computer doesn't power on at all",
+      "symptoms": [
+        "No power light",
+        "No fan noise",
+        "Screen blank"
+      ],
+      "solution": "1. Check power cable connection\n2. Verify power outlet work\n3. Check power supply switch\n4. Test with different power cable",
+      "category": "Hardware",
+      "priority": 1,
+      "confidence": 0.9,
+      "created_date": "2026-06-26T10:30:13.802466"
+    },
+    {
+      "rule_id": "RULE002",
+      "title": "Blue screen of death",
+      "description": "Computer crashes with blue screen error",
+      "symptoms": [
+        "Blue screen",
+        "Automatic restart",
+        "Error codes"
+      ],
+      "solution": "1. Note error code\n2. Check recent software/hardware change\n3. Run memory\n4. Update drivers\n5. Check for overheating",
+      "category": "Software",
+      "priority": 2,
+      "confidence": 0.8,
+      "created_date": "2026-06-26T10:30:13.802502"
+    },
+    {
+      "rule_id": "RULE003",
+      "title": "Slow performance",
+      "description": "Computer runs very slowly",
+      "symptoms": [
+        "Slow boot time",
+        "Programs lag",
+        "High CPU usage"
+      ],
+      "solution": "1. Run antivirus scan\n2. Check startup programs\n3. Clean temporary files\n4. Add more RAM if needed\n5. Defragment hard drive",
+      "category": "Performance",
+      "priority": 1,
+      "confidence": 0.8,
+      "created_date": "2026-06-26T10:30:13.802506"
+    },
+    {
+      "rule_id": "RULE004",
+      "title": "Internet connection issues",
+      "description": "Cannot connect to internet",
+      "symptoms": [
+        "No internet access",
+        "Connection timeout",
+        "DNS errors"
+      ],
+      "solution": "1. Check cable connections\n2. restart router/modem\n3. Run network troubleshooter\n4. Update network driver\n5. Restart network settings",
+      "category": "Network",
+      "priority": 1,
+      "confidence": 0.8,
+      "created_date": "2026-06-26T10:30:13.802509"
+    },
+    {
+      "rule_id": "RULE005",
+      "title": "Overheating issues",
+      "description": "Computer goes too hot and shuts down",
+      "symptoms": [
+        "Computer hot to touch",
+        "Automatic shutdown",
+        "Fan nois loud"
+      ],
+      "solution": "1. Clean dust from vents and fans\n2. Check thermal paste\n3. Ensure proper ventilation\n4. Check fan functionality\n5. Reduce CPU load",
+      "category": "Hardware",
+      "priority": 2,
+      "confidence": 0.9,
+      "created_date": "2026-06-26T10:30:13.802511"
+    }
+  ],
+  "cases": [],
+  "symptoms": [
+    "No power light",
+    "Blue screen",
+    "No internet access",
+    "Computer hot to touch",
+    "Programs lag",
+    "Error codes",
+    "Fan nois loud",
+    "Automatic shutdown",
+    "Connection timeout",
+    "Slow boot time",
+    "Automatic restart",
+    "Screen blank",
+    "High CPU usage",
+    "No fan noise",
+    "DNS errors"
+  ]
+}
